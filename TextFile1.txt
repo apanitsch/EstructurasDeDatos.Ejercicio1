@@ -1,0 +1,13 @@
+Van a un modulo general de validaciones que vamos creando
+y haciendo más complejo o mas comodo a medida que practicamos.
+1) Pasar al tipo de datos requerido.
+2) Validación de rango (max-min) / Otras dependiendo el ingreso (???)
+
+//Cual es el lugar para validar esto??
+3) Construir una entidad (ej: "Persona")
+4) Coherencia o validez de la entidad entera (sin acceso a datos externos!)
+
+
+
+5) Validación respecto de la BBDD (o el conjunto de archivos que usamos), 
+   de sus maestros, de las operaciones previas, etc.
