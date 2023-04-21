@@ -1,4 +1,5 @@
 ﻿using EstructurasDeDatos.Ejercicio1;
+using EstructurasDeDatos.Ejercicio1.Archivos;
 using EstructurasDeDatos.Ejercicio1.Entidades;
 
 //Se puede utilizar este espacio
@@ -7,3 +8,7 @@ using EstructurasDeDatos.Ejercicio1.Entidades;
 
 
 MenuPrincipal.Mostrar();
+
+
+//Acá el sistema se está cerrando.
+PersonasArchivo.Grabar();

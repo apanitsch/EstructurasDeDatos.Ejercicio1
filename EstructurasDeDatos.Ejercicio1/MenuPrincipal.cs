@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EstructurasDeDatos.Ejercicio1.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,17 @@ namespace EstructurasDeDatos.Ejercicio1;
 
 internal static class MenuPrincipal
 {
+    public static PersonaEnt UsuarioActual { get; private set; }    
+
+    public static void Login(string usuario, string password)
+    {
+        //Ejemplo: en un sistema completo de alguna manera obtenemos el usuario
+        //(de un archivo, una BBDD, etc.)
+        PersonaEnt persona = new();
+
+        UsuarioActual = persona;
+    }
+
     public static void Mostrar()
     {
         Console.WriteLine("Menu principal");
